@@ -21,13 +21,17 @@ public class Robot extends RobotStatique {
 	    switch (this.getDirection()) {
 	        case North:
 	            this.getPosition().moveY(1);
+	            break;
 	        case East:
 	            this.getPosition().moveX(1);
+	            break;
 	        case West:
 	            this.getPosition().moveX(-1);
+	            break;
 	        case South:
 	            this.getPosition().moveY(-1);
-	        default:
+	            break;
+	        default:break;
 
 	    }
 	}
@@ -38,13 +42,17 @@ public class Robot extends RobotStatique {
 	    switch (this.getDirection()) {
 	    case North:
 	        this.setDirection(Direction.East);
+	         break;
 	    case East:
-	        this.setDirection(Direction.North);
-	    case West:
 	        this.setDirection(Direction.South);
+	        break;
+	    case West:
+	        this.setDirection(Direction.North);
+	        break;
 	    case South:
 	        this.setDirection(Direction.West);
-	    default:
+	        break;
+	    default:break;
 	}
 	}
 	
