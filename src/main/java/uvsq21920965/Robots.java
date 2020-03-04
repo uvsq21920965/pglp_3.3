@@ -2,20 +2,32 @@ package uvsq21920965;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 
+ * @author Sarra Belmahdi.
+ *
+ */
 public class Robots {
+	/**
+	 * lise des robots.
+	 */
 	 private List <RobotStatique> listeRobots;
-	    
+	    /**
+	     * constructeur.
+	     */
 	    public Robots() {
 	        listeRobots = new ArrayList<RobotStatique>();
 	    }
 	    /**
-	    *
-	    * @param robot robot to be added to robots list.
+	    *ajouter un robot
+	    * @param robot robot ajouté.
 	    */
 	    public void addARobot(final RobotStatique robot) {
 	      this.listeRobots.add(robot);
 	    }
+	    /**
+	     * avencer tous les robots.
+	     */
 	    public void avanceTout() {
 	       for (RobotStatique robot: listeRobots) {
 	          robot.avance();
