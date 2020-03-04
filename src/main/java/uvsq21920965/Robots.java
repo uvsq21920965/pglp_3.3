@@ -32,6 +32,13 @@ public class Robots {
 	       for (RobotStatique robot: listeRobots) {
 	          robot.avance();
 	      }
-	}
+	}  
+	    /**
+	     * acceder à la liste des robots.
+	     * @return laliste des robots.
+	     */
+		public List<RobotStatique> getListeRobots() {
+			return listeRobots;
+		}
 
 }
