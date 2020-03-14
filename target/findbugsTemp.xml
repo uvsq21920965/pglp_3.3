@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1584216960000" analysisTimestamp="1584216969258" release="">
+  <Project projectName="pgpl_3.3">
+    <Jar>/home/oem/git/pgpl_3.3/target/classes</Jar>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/mojo/findbugs-maven-plugin/3.0.4/findbugs-maven-plugin-3.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/com/google/code/findbugs/bcel-findbugs/6.0/bcel-findbugs-6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/com/google/code/findbugs/jFormatString/2.0.1/jFormatString-2.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/ow2/asm/asm-debug-all/5.0.2/asm-debug-all-5.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/ant/ant/1.9.4/ant-1.9.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/groovy/groovy/2.4.7/groovy-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/groovy/groovy-ant/2.4.7/groovy-ant-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/ant/ant-antlr/1.9.4/ant-antlr-1.9.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/groovy/groovy-groovydoc/2.4.7/groovy-groovydoc-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/groovy/groovy-templates/2.4.7/groovy-templates-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/ant/ant-junit/1.9.4/ant-junit-1.9.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.7/groovy-xml-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-settings/2.0.10/maven-settings-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/sslext/sslext/1.2-0/sslext-1.2-0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/antlr/antlr/2.7.2/antlr-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/shared/maven-doxia-tools/1.2.1/maven-doxia-tools-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-resources/1.0-alpha-7/plexus-resources-1.0-alpha-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar</AuxClasspathEntry>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 14 Mar 2020 21:16:00 +0100" total_classes="6" referenced_classes="29" total_bugs="0" total_size="96" num_packages="1" java_version="1.8.0_222" vm_version="25.222-b10" cpu_seconds="10.78" clock_seconds="3.49" peak_mbytes="114.10" alloc_mbytes="455.50" gc_seconds="0.04">
+    <FileStats path="fr/uvsq21920965/pglp33/Direction.java" bugCount="0" size="15"/>
+    <FileStats path="fr/uvsq21920965/pglp33/Position.java" bugCount="0" size="18"/>
+    <FileStats path="fr/uvsq21920965/pglp33/Robot.java" bugCount="0" size="30"/>
+    <FileStats path="fr/uvsq21920965/pglp33/RobotStatique.java" bugCount="0" size="17"/>
+    <FileStats path="fr/uvsq21920965/pglp33/Robots.java" bugCount="0" size="16"/>
+    <PackageStats package="fr.uvsq21920965.pglp33" total_bugs="0" total_types="6" total_size="96">
+      <ClassStats class="fr.uvsq21920965.pglp33.Direction" sourceFile="Direction.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp33.Position" sourceFile="Position.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp33.Robot" sourceFile="Robot.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp33.Robot$1" sourceFile="Robot.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp33.RobotStatique" sourceFile="RobotStatique.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp33.Robots" sourceFile="Robots.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="425" invocations="341" avgMicrosecondsPerInvocation="1247" maxMicrosecondsPerInvocation="42149" standardDeviationMircosecondsPerInvocation="3330"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="217" invocations="344" avgMicrosecondsPerInvocation="632" maxMicrosecondsPerInvocation="19577" standardDeviationMircosecondsPerInvocation="1846"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="108" invocations="29" avgMicrosecondsPerInvocation="3746" maxMicrosecondsPerInvocation="26541" standardDeviationMircosecondsPerInvocation="6735"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="88" invocations="96" avgMicrosecondsPerInvocation="917" maxMicrosecondsPerInvocation="7967" standardDeviationMircosecondsPerInvocation="1254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="87" invocations="308" avgMicrosecondsPerInvocation="284" maxMicrosecondsPerInvocation="10480" standardDeviationMircosecondsPerInvocation="753"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="83" invocations="22" avgMicrosecondsPerInvocation="3782" maxMicrosecondsPerInvocation="73375" standardDeviationMircosecondsPerInvocation="15192"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="70" invocations="48" avgMicrosecondsPerInvocation="1475" maxMicrosecondsPerInvocation="40939" standardDeviationMircosecondsPerInvocation="5923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="65" invocations="22" avgMicrosecondsPerInvocation="2958" maxMicrosecondsPerInvocation="45263" standardDeviationMircosecondsPerInvocation="9271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="61" invocations="29" avgMicrosecondsPerInvocation="2123" maxMicrosecondsPerInvocation="17749" standardDeviationMircosecondsPerInvocation="3809"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="58" invocations="29" avgMicrosecondsPerInvocation="2024" maxMicrosecondsPerInvocation="30840" standardDeviationMircosecondsPerInvocation="5807"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="51" invocations="6" avgMicrosecondsPerInvocation="8565" maxMicrosecondsPerInvocation="47167" standardDeviationMircosecondsPerInvocation="17263"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="48" invocations="22" avgMicrosecondsPerInvocation="2202" maxMicrosecondsPerInvocation="20366" standardDeviationMircosecondsPerInvocation="4435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="47" invocations="23" avgMicrosecondsPerInvocation="2079" maxMicrosecondsPerInvocation="19822" standardDeviationMircosecondsPerInvocation="4109"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="43" invocations="29" avgMicrosecondsPerInvocation="1493" maxMicrosecondsPerInvocation="11055" standardDeviationMircosecondsPerInvocation="2567"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="41" invocations="22" avgMicrosecondsPerInvocation="1896" maxMicrosecondsPerInvocation="17801" standardDeviationMircosecondsPerInvocation="3619"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="40" invocations="6" avgMicrosecondsPerInvocation="6712" maxMicrosecondsPerInvocation="39871" standardDeviationMircosecondsPerInvocation="14829"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="39" invocations="22" avgMicrosecondsPerInvocation="1796" maxMicrosecondsPerInvocation="7277" standardDeviationMircosecondsPerInvocation="1938"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="37" invocations="29" avgMicrosecondsPerInvocation="1280" maxMicrosecondsPerInvocation="11327" standardDeviationMircosecondsPerInvocation="2817"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

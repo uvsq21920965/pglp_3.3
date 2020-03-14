@@ -1,8 +1,9 @@
-import uvsq21920965.Direction;
-import uvsq21920965.Position;
-import uvsq21920965.Robot;
-import uvsq21920965.RobotStatique;
-import uvsq21920965.Robots;
+import fr.uvsq21920965.pglp33.Direction;
+import fr.uvsq21920965.pglp33.Position;
+import fr.uvsq21920965.pglp33.Robot;
+import fr.uvsq21920965.pglp33.RobotStatique;
+import fr.uvsq21920965.pglp33.Robots;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

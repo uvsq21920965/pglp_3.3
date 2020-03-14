@@ -1,0 +1,26 @@
+#surefire
+#Sat Mar 14 21:12:37 CET 2020
+testClassesDirectory=/home/oem/git/pgpl_3.3/target/test-classes
+classPathUrl.3=/home/oem/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+classPathUrl.2=/home/oem/.m2/repository/junit/junit/4.11/junit-4.11.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/oem/git/pgpl_3.3/target/classes
+reportsDirectory=/home/oem/git/pgpl_3.3/target/surefire-reports
+classPathUrl.0=/home/oem/git/pgpl_3.3/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=/home/oem/git/pgpl_3.3/src/test/java
+surefireClassPathUrl.1=/home/oem/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+surefireClassPathUrl.0=/home/oem/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.12.4/surefire-junit4-2.12.4.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+tc.1=RobotTest
+tc.0=RobotsTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=/home/oem/git/pgpl_3.3/.surefire-7AADAD3305A0E5BF40AD31F8DF041375DFFDADA4
+includes0=**/Test*.java
+childDelegation=false
