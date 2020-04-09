@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.19">
-<file name="/home/oem/git/pgpl_3.3/src/main/java/fr/uvsq21920965/pglp33/Direction.java">
-</file>
-<file name="/home/oem/git/pgpl_3.3/src/main/java/fr/uvsq21920965/pglp33/Position.java">
-</file>
 <file name="/home/oem/git/pgpl_3.3/src/main/java/fr/uvsq21920965/pglp33/package-info.java">
-<error line="1" severity="warning" message="Summary javadoc is missing." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
-</file>
-<file name="/home/oem/git/pgpl_3.3/src/main/java/fr/uvsq21920965/pglp33/RobotStatique.java">
-</file>
-<file name="/home/oem/git/pgpl_3.3/src/main/java/fr/uvsq21920965/pglp33/Robot.java">
-</file>
-<file name="/home/oem/git/pgpl_3.3/src/main/java/fr/uvsq21920965/pglp33/Robots.java">
 </file>
 </checkstyle>
